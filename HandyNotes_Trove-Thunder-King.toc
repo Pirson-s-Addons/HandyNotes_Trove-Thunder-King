@@ -1,0 +1,25 @@
+## Interface: 50503
+## Version: 1.00
+## Author: Pirson
+## RequiredDeps: HandyNotes
+
+## Title: |TInterface/Addons/HandyNotes_Trove-Thunder-King/img/logo-hn-ttk:16:16|t |cffd597ffHandyNotes Trove of the Thunder King|r
+
+## Notes: |cFF33CCFFShows the location of all Trove of the Thunder King treasures on Thunder Island.|r
+## Notes-deDE: |cFF33CCFFZeigt alle Fundorte der Schatztruhen des Donnerkönigs auf der Insel des Donnerkönigs an.|r
+## Notes-esES: |cFF33CCFFMuestra la ubicación de todos los Tesoro del Rey del Trueno en la Isla del Trueno.|r
+## Notes-esMX: |cFF33CCFFMuestra la ubicación de todos los Tesoro del Rey del Trueno en la Isla del Trueno.|r
+## Notes-frFR: |cFF33CCFFAffiche l’emplacement de tous les Trésors du Roi Tonnerre sur l’Île du Roi Tonnerre.|r
+## Notes-itIT: |cFF33CCFFMostra la posizione di tutti i Tesori del Re del Tuono sull’Isola del Re del Tuono.|r
+## Notes-koKR: |cFF33CCFF번개왕의 섬에 있는 모든 번개의 왕 보물 위치를 표시합니다.|r
+## Notes-ptBR: |cFF33CCFFMostra a localização de todos os Tesouros do Rei do Trovão na Ilha do Rei do Trovão.|r
+## Notes-ptPT: |cFF33CCFFMostra a localização de todos os Tesouros do Rei do Trovão na Ilha do Rei do Trovão.|r
+## Notes-ruRU: |cFF33CCFFПоказывает все местоположения Сокровищ Короля Грома на Острове Короля Грома.|r
+## Notes-zhCN: |cFF33CCFF显示雷王宝藏在雷王岛上的所有位置。|r
+## Notes-zhTW: |cFF33CCFF顯示雷王寶藏在雷王島上的所有位置。|r
+
+## X-Curse-Project-ID: 1403777
+
+Core.lua
+Data.lua
+Localisations_DST.lua
