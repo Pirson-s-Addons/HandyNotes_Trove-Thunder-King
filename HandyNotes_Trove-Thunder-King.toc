@@ -1,7 +1,6 @@
 ## Interface: 50503
 ## Version: 1.00
 ## Author: Pirson
-## RequiredDeps: HandyNotes
 
 ## Title: |TInterface/Addons/HandyNotes_Trove-Thunder-King/img/logo-hn-ttk:16:16|t |cffd597ffHandyNotes Trove of the Thunder King|r
 
@@ -17,6 +16,9 @@
 ## Notes-ruRU: |cFF33CCFFПоказывает все местоположения Сокровищ Короля Грома на Острове Короля Грома.|r
 ## Notes-zhCN: |cFF33CCFF显示雷王宝藏在雷王岛上的所有位置。|r
 ## Notes-zhTW: |cFF33CCFF顯示雷王寶藏在雷王島上的所有位置。|r
+
+## RequiredDeps: HandyNotes
+## SavedVariables: HandyNotes_TroveThunderKingDB
 
 ## X-Curse-Project-ID: 1403777
 

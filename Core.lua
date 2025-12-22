@@ -20,33 +20,37 @@ ns.L = ns.L or setmetatable({}, {
     end
 })
 
+
 local pluginHandler = {}
 
 function pluginHandler:OnEnter(mapID, coord)
-    local tooltip = GameTooltip
     if self:GetCenter() > UIParent:GetCenter() then
-        tooltip:SetOwner(self, "ANCHOR_LEFT")
+        GameTooltip:SetOwner(self, "ANCHOR_LEFT")
     else
-        tooltip:SetOwner(self, "ANCHOR_RIGHT")
+        GameTooltip:SetOwner(self, "ANCHOR_RIGHT")
     end
 
-    tooltip:SetText(ns.L["Trove of the Thunder King"])
-    tooltip:AddLine(ns.L["Trove"], 1, 1, 1)
+    GameTooltip:SetText(ns.L["Trove of the Thunder King"])
+    GameTooltip:AddLine(ns.L["Trove"], 1, 1, 1)
 
     local x, y = HandyNotes:getXY(coord)
-    tooltip:AddLine(string.format("(%.2f, %.2f)", x * 100, y * 100), 0.8, 0.8, 0.8)
+    GameTooltip:AddLine(
+        string.format("(%.2f, %.2f)", x * 100, y * 100),
+        0.8, 0.8, 0.8
+    )
 
-    tooltip:Show()
+    GameTooltip:Show()
 end
 
 function pluginHandler:OnLeave()
     GameTooltip:Hide()
 end
 
+
 local function iterator(t, prev)
     if not t then return end
 
-    local coord, data = next(t, prev)
+    local coord = next(t, prev)
     if coord then
         return coord,
             nil,
@@ -60,24 +64,29 @@ function pluginHandler:GetNodes2(mapID)
     return iterator, ns.points[mapID]
 end
 
-function pluginHandler:OnEnable()
+
+local addon = LibStub("AceAddon-3.0"):NewAddon(
+    "HandyNotes_TroveThunderKing",
+    "AceEvent-3.0"
+)
+
+function addon:OnEnable()
     ns.db = LibStub("AceDB-3.0"):New(
         "HandyNotes_TroveThunderKingDB",
         ns.defaults,
-        true
+        "Default"
     ).profile
 
     HandyNotes:RegisterPluginDB(
-        "HandyNotes_Trove-Thunder-King",
+        "TroveThunderKing",
         pluginHandler,
-        {}
+        {
+            type = "group",
+            name = "Trove of the Thunder King",
+            desc = "Trove of the Thunder King treasures",
+            args = {}
+        }
     )
 
-    self:SendMessage("HandyNotes_NotifyUpdate", "HandyNotes_Trove-Thunder-King")
+    self:SendMessage("HandyNotes_NotifyUpdate", "Trove of the Thunder King")
 end
-
-LibStub("AceAddon-3.0"):NewAddon(
-    pluginHandler,
-    "HandyNotes_Trove-Thunder-King",
-    "AceEvent-3.0"
-)
