@@ -1,5 +1,5 @@
 ## Interface: 50503
-## Version: 1.00
+## Version: 1.01
 ## Author: Pirson
 
 ## Title: |TInterface/Addons/HandyNotes_Trove-Thunder-King/img/logo-hn-ttk:16:16|t |cffd597ffHandyNotes Trove of the Thunder King|r
