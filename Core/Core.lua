@@ -60,8 +60,14 @@ local function iterator(t, prev)
     end
 end
 
+-- API moderna: MoP Classic
 function pluginHandler:GetNodes2(mapID)
     return iterator, ns.points[mapID]
+end
+
+-- API legacy: MoP Retail (5.0.4 - 5.4.8)
+function pluginHandler:GetNodes(mapFile, minimap)
+    return iterator, ns.points[mapFile]
 end
 
 

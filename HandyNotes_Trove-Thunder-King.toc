@@ -1,8 +1,55 @@
-## Interface: 50500, 50501, 50502, 50503, 50504
-## Version: 1.03
+## Interface: 50004, 50005, 50100, 50200, 50300, 50400, 50401, 50402, 50407, 50408, 50500, 50501, 50502, 50503, 50504
+## Version: 1.05
 ## Author: Pirson
 
-## Title: |TInterface/Addons/HandyNotes_Trove-Thunder-King/img/logo-hn-ttk:16:16|t |cffd597ffHandyNotes Trove of the Thunder King|r
+## IconTexture: Interface\AddOns\HandyNotes_Trove-Thunder-King\img\logo-hn-ttk
+## Title: |cffd597ffHandyNotes Trove of the Thunder King|r
+
+# https://warcraft.wiki.gg/wiki/Addon_Categories
+## Category: Map & Minimap
+## Category-deDE: Karte & Minikarte
+## Category-esES: Mapa y minimapa
+## Category-esMX: Mapa y minimapa
+## Category-frFR: Carte et minicarte
+## Category-itIT: Mappa e minimappa
+## Category-koKR: 지도 및 미니맵
+## Category-ptBR: Mapa e minimapa
+## Category-ruRU: Карта и миникарта
+## Category-zhCN: 地图和小地图
+## Category-zhTW: 地圖與小地圖
+## Category-plPL: Mapa i minimapa
+## Category-svSE: Karta och minikarta
+## Category-noNO: Kart og minikart
+## Category-csCZ: Mapa a minimapa
+## Category-nlNL: Kaart en minikaart
+## Category-roRO: Hartă și minihartă
+## Category-huHU: Térkép és minitérkép
+## Category-elGR: Χάρτης και μικρός χάρτης
+## Category-ukUA: Мапа й мінімапа
+## Category-daDK: Kort og minikort
+## Category-fiFI: Kartta ja minikartta
+## Category-skSK: Mapa a minimapa
+## Category-bgBG: Карта и миникарта
+## Category-hrHR: Karta i mini-karta
+## Category-srRS: Mapa i mini-mapa
+## Category-slSI: Zemljevid in mini zemljevid
+## Category-ltLT: Žemėlapis ir mini žemėlapis
+## Category-lvLV: Karte un minikarte
+## Category-etEE: Kaart ja minikaart
+## Category-idID: Peta dan minimap
+## Category-msMY: Peta dan peta mini
+## Category-faIR: نقشه و مینی‌مپ
+## Category-heIL: מפה ומפה מוקטנת
+## Category-bnBD: মানচিত্র ও মিনিম্যাপ
+## Category-urPK: نقشہ اور منی میپ
+## Category-taIN: வரைபடம் மற்றும் சிறு வரைபடம்
+## Category-teIN: పటం మరియు చిన్న పటం
+## Category-trTR: Harita ve mini harita
+## Category-jaJP: マップとミニマップ
+## Category-arSA: الخريطة والخريطة المصغرة
+## Category-hiIN: नक्शा और मिनीमैप
+## Category-thTH: แผนที่และแผนที่ย่อ
+## Category-viVN: Bản đồ và bản đồ nhỏ
 
 ## Notes: |cFF33CCFFShows the location of all Trove of the Thunder King treasures on Thunder Island.|r
 ## Notes-deDE: |cFF33CCFFZeigt alle Fundorte der Schatztruhen des Donnerkönigs auf der Insel des Donnerkönigs an.|r
@@ -12,16 +59,67 @@
 ## Notes-itIT: |cFF33CCFFMostra la posizione di tutti i Tesori del Re del Tuono sull’Isola del Re del Tuono.|r
 ## Notes-koKR: |cFF33CCFF번개왕의 섬에 있는 모든 번개의 왕 보물 위치를 표시합니다.|r
 ## Notes-ptBR: |cFF33CCFFMostra a localização de todos os Tesouros do Rei do Trovão na Ilha do Rei do Trovão.|r
-## Notes-ptPT: |cFF33CCFFMostra a localização de todos os Tesouros do Rei do Trovão na Ilha do Rei do Trovão.|r
 ## Notes-ruRU: |cFF33CCFFПоказывает все местоположения Сокровищ Короля Грома на Острове Короля Грома.|r
 ## Notes-zhCN: |cFF33CCFF显示雷王宝藏在雷王岛上的所有位置。|r
 ## Notes-zhTW: |cFF33CCFF顯示雷王寶藏在雷王島上的所有位置。|r
+## Notes-plPL: |cFF33CCFFPokazuje położenie wszystkich skarbów Trove of the Thunder King na Isle of Thunder.|r
+## Notes-svSE: |cFF33CCFFVisar var alla Trove of the Thunder King-skatter finns på Isle of Thunder.|r
+## Notes-noNO: |cFF33CCFFViser hvor alle Trove of the Thunder King-skattene er på Isle of Thunder.|r
+## Notes-csCZ: |cFF33CCFFUkazuje polohu všech pokladů Trove of the Thunder King na Isle of Thunder.|r
+## Notes-nlNL: |cFF33CCFFToont de locatie van alle Trove of the Thunder King-schatten op Isle of Thunder.|r
+## Notes-roRO: |cFF33CCFFArată locația tuturor comorilor Trove of the Thunder King de pe Isle of Thunder.|r
+## Notes-huHU: |cFF33CCFFMegmutatja az összes Trove of the Thunder King kincs helyét az Isle of Thunderen.|r
+## Notes-elGR: |cFF33CCFFΔείχνει τη θέση όλων των θησαυρών Trove of the Thunder King στο Isle of Thunder.|r
+## Notes-ukUA: |cFF33CCFFПоказує розташування всіх скарбів Trove of the Thunder King на Isle of Thunder.|r
+## Notes-daDK: |cFF33CCFFViser placeringen af alle Trove of the Thunder King-skatte på Isle of Thunder.|r
+## Notes-fiFI: |cFF33CCFFNäyttää kaikkien Trove of the Thunder King -aarteiden sijainnin Isle of Thunderilla.|r
+## Notes-skSK: |cFF33CCFFUkazuje polohu všetkých pokladov Trove of the Thunder King na Isle of Thunder.|r
+## Notes-bgBG: |cFF33CCFFПоказва местоположението на всички съкровища Trove of the Thunder King на Isle of Thunder.|r
+## Notes-hrHR: |cFF33CCFFPrikazuje lokaciju svih blaga Trove of the Thunder King na Isle of Thunder.|r
+## Notes-srRS: |cFF33CCFFPrikazuje lokaciju svih blaga Trove of the Thunder King na Isle of Thunder.|r
+## Notes-slSI: |cFF33CCFFPrikaže lokacijo vseh zakladov Trove of the Thunder King na Isle of Thunder.|r
+## Notes-ltLT: |cFF33CCFFRodo visų Trove of the Thunder King lobių vietas Isle of Thunder saloje.|r
+## Notes-lvLV: |cFF33CCFFParāda visu Trove of the Thunder King dārgumu atrašanās vietu Isle of Thunder salā.|r
+## Notes-etEE: |cFF33CCFFNäitab kõigi Trove of the Thunder King aarete asukohta Isle of Thunderil.|r
+## Notes-idID: |cFF33CCFFMenampilkan lokasi semua harta Trove of the Thunder King di Isle of Thunder.|r
+## Notes-msMY: |cFF33CCFFMenunjukkan lokasi semua harta Trove of the Thunder King di Isle of Thunder.|r
+## Notes-faIR: |cFF33CCFFمکان همه گنج‌های Trove of the Thunder King را در Isle of Thunder نشان می‌دهد.|r
+## Notes-heIL: |cFF33CCFFמציג את המיקום של כל אוצרות Trove of the Thunder King ב-Isle of Thunder.|r
+## Notes-bnBD: |cFF33CCFFIsle of Thunder-এ সব Trove of the Thunder King গুপ্তধনের অবস্থান দেখায়।|r
+## Notes-urPK: |cFF33CCFFIsle of Thunder پر تمام Trove of the Thunder King خزانوں کا مقام دکھاتا ہے۔|r
+## Notes-taIN: |cFF33CCFFIsle of Thunder இல் உள்ள அனைத்து Trove of the Thunder King புதையல்களின் இடத்தைக் காட்டுகிறது.|r
+## Notes-teIN: |cFF33CCFFIsle of Thunder లోని అన్ని Trove of the Thunder King నిధుల స్థానాన్ని చూపిస్తుంది.|r
+## Notes-trTR: |cFF33CCFFIsle of Thunder'daki tüm Trove of the Thunder King hazinelerinin yerini gösterir.|r
+## Notes-jaJP: |cFF33CCFFIsle of Thunder にあるすべての Trove of the Thunder King の宝の場所を表示します。|r
+## Notes-arSA: |cFF33CCFFيعرض مواقع جميع كنوز Trove of the Thunder King في Isle of Thunder.|r
+## Notes-hiIN: |cFF33CCFFIsle of Thunder पर सभी Trove of the Thunder King ख़ज़ानों की जगह दिखाता है।|r
+## Notes-thTH: |cFF33CCFFแสดงตำแหน่งสมบัติ Trove of the Thunder King ทั้งหมดบน Isle of Thunder|r
+## Notes-viVN: |cFF33CCFFHiển thị vị trí của tất cả kho báu Trove of the Thunder King trên Isle of Thunder.|r
 
 ## RequiredDeps: HandyNotes
 ## SavedVariables: HandyNotes_TroveThunderKingDB
 
 ## X-Curse-Project-ID: 1403777
 
-Core.lua
-Data.lua
-Localisations_DST.lua
+Core/Core.lua
+Data/Data.lua
+Locales/enUS.lua
+Locales/esES.lua
+Locales/deDE.lua
+Locales/frFR.lua
+Locales/itIT.lua
+Locales/ptBR.lua
+Locales/ruRU.lua
+Locales/koKR.lua
+Locales/zhCN.lua
+Locales/zhTW.lua
+Locales/plPL.lua
+Locales/svSE.lua
+Locales/noNO.lua
+Locales/trTR.lua
+Locales/jaJP.lua
+Locales/arSA.lua
+Locales/hiIN.lua
+Locales/thTH.lua
+Locales/viVN.lua
+Locales/csCZ.lua

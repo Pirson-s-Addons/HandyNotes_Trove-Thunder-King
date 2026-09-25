@@ -63,3 +63,5 @@ ns.points = {
         [66104090] = { tooltip=ns.L["Trove"] },
     }
 }
+
+ns.points["IsleOfThunder"] = ns.points[504]
