@@ -1,5 +1,5 @@
 ## Interface: 50004, 50005, 50100, 50200, 50300, 50400, 50401, 50402, 50407, 50408, 50500, 50501, 50502, 50503, 50504
-## Version: 1.06
+## Version: 1.07
 ## Author: Pirson
 
 ## IconTexture: Interface\AddOns\HandyNotes_Trove-Thunder-King\img\logo-hn-ttk
