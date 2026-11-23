@@ -100,6 +100,7 @@
 ## SavedVariables: HandyNotes_TroveThunderKingDB
 
 ## X-Curse-Project-ID: 1403777
+## X-Wago-ID: 5NRgP163
 ## X-License: MIT
 ## X-Copyright: Copyright (c) 2025-2026 Pirson
 ## X-Website: https://github.com/Pirson-s-Addons/HandyNotes_Trove-Thunder-King
